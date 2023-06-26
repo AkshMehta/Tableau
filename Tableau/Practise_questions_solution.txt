@@ -1,0 +1,113 @@
+1. Which of the following is the best reason to use a live connection instead of an extract?
+Ans:- You need to refresh the data as often as possible.
+
+2. Which of the following are most likely to reduce the size of an extract [select two]
+Ans:- Check the "Aggregate data to visible dimensions" option. Select the "Hide All Unused Fields"
+
+3. Which file type saves both the connection information (for example the database server address), calculations and groups that you've added, along with an extract of the data?
+Ans:- .tdsx
+
+4. After adding one table to the canvas, what steps should you follow to create a relationship with a second table located on a different database? 
+Ans:- Click the Add link to the right of the Connections heading in the Left pane. Switch between data connections in the Left pane, then drag out the desired table to the canvas and release it.
+
+5. A relationship is most similar to which type of join?
+Ans:- Outer
+
+7. Which of the following can be used to combine tables at different levels of granularity without duplicating data? 
+Ans:- Blend,Relationship
+
+8. What steps will change "Category" to "Product Category"?
+Ans:- Right-click the Category pill in the data pane. Select "Rename" then change the text form "Category" to "Product Category"
+
+9. Which fields shown in the data pane below, when included in a map, will cause the system generated latitude and longitude fields to be added to the view? 
+Ans:- State.City.Country/Region
+
+10. Default formatting can be set for which of the following
+Ans:- Numbers,Dates
+
+11. What steps should you take to create this bar chart? 
+Ans:- Drag the Sales pill to the Column Shelf and the Category pill to the Row Shelf
+
+12. Which type of date field is used below?
+Ans:- Discrete
+
+13. Which type of chart would be most appropriate for showing the relationship between two measures?
+Ans:- Scatter Chart
+
+14. You have a bar chart showing monthly revenue by store. What should you do to combine the bars for two of the stores?
+Ans:- Create a group
+
+15. You have created a polygon map and would like to be able to see all major cities shown on the map. How should you show these?
+Ans:- On the toolbar, select Map and then Map Layers. Check the box next to Cities in the Map Layer pane.
+
+16. You have a scatter plot that uses different symbols to represent different product sub-categories. What steps should you take to replace the symbol for Bookcases with a square?
+Ans:- Click the Shapes mark, then select bookcases and the square shape. Click Okay..In the data pane, select default properties then Shape. In the menu that appears, select bookcases and the square shape. Click Okay.
+
+17. You wish to organize related dimensions into a series of different levels. Which feature should you use?
+Ans:- Heirarchy
+
+18. Which of the following describe the steps needed to do a manual sort? [select two]
+Ans:- Right-click the pill for the dimension you'd like to sort. Select Sort, then Manual. Use the arrows to manually sort and click okay..Click a header and drag it to the new location.
+
+19. You have a line chart showing total sales by year. How can you change this to a bar chart? [select two] 
+Ans:- On the Marks card, select Bar from the drop-down list..On the Show Me menu, select horizontal bars.
+
+20. Which best describes this chart?
+Ans:- A dual axis chart with axes that are not synchronized
+
+21. You have a crosstab view showing the average listing prices for homes by zipcode. What would be the best way to update the view to remove zip-codes with average listing prices about 300,000?
+Ans:- Add a measure filter on the listing price
+
+22. Your workbook has two different data sources, both sharing a field called "Business Name." How can a single filter be used to filter both data sources on this field?
+Ans:- Select the "All using this data source" option for the filter
+
+23. What steps should you take to place a filter on an Order Date field so that one of the worksheets in the workbook shows only orders placed in the current month when the viz is opened?
+Ans:- Drag the date field to the filters area. Select Relative Dates. Then select Months and This Month.
+
+24. What reference line options should you use so that the showing the average sum of sales per sub-category for each category?
+Ans:-  Set the scope to be "Per Pane" and the Value to be SUM(Sales) using Average
+
+25. Which "Compute Using" option is being used in the "Percent of total" calculation shown below?
+Ans:- Pane (down)
+
+26. Which of the following chart types is most likely to include a bin?
+Ans:- Histogram
+
+27. Which calculation will add the Tax field to the Sales Price field?
+Ans:- [Tax] + [Sales Price]
+
+28. How can totals be added to crosstab view? [select two]
+Ans:- Select the Analytics Pane. Drag totals into the view. Release the mouse on the type of total you'd like to add..On the Analysis tab of the toolbar, select Totals. Then select the type of total you'd like to add.
+
+29. You have a scatter plots of products with Sales on the X-axis and Profit on the Y-axis. What should you do so that the points on the plot are larger depending on the total quantity sold? [select two] 
+Ans:- Drag the pill for the Quantity Sold field to the Size card..Drag the pill for Quanitity Sold field into the center of the chart and release the mouse
+
+30. You've created a bar chart showing Sales by Category, but you'd like the user to be able to choose to have other measures shown in the same format. How could this be achieved?
+Ans:- With a parameter
+
+31. Which interactive elements can you add to a dashboard? [select three]
+Ans:- URL Actions.Highlight Actions.Filter Actions
+
+32. 32. You'd like to add the same worksheet multiple times, but with different filters selected. Which feature will support this?
+Ans:- Stories Only
+
+33. Which option creates a dashboard action?
+Ans:- Use as Filter
+
+34. Which of the following describes the relationship between the default dashboard layout and device-specific layouts? [select two]
+Ans:- Items on the default dashboard layout need not be included on the device-specific layouts.Items on the device-specific layouts must also be present on the default layout
+
+35. You've created a crosstab view with dimensions and an aggregated measure. What steps should you take to export the crosstab to Excel?
+Ans:- Select Worksheet > Export > Crosstab to Excel
+
+37.  Which of the following would most likely be a measure? 
+Ans:- Sales tax
+
+38.  Which of the following will create an axes when it is added to the row or column shelf? [select two]
+Ans:- A continuous measure.A continuous dimension
+
+39. You have a line chart showing the number of motor vehicle accidents per month. You drag the "accident type" dimension to the color measure. How does this change the line chart?
+Ans:- The number of lines on the chart will increase. The heights of the lines will decrease.
+
+
+
